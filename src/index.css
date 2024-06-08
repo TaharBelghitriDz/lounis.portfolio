@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "serif";
+  src: local("AirbnbCerealLight"),
+    url("/behance-6543254c619af.otf") format("truetype");
+}
+
+.container {
+  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display"; */
+}
